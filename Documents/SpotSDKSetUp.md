@@ -1,15 +1,19 @@
-# Goal #
+# SPOT SDK Setup Report #
+## Goal ##
 To set up the Boston Dynamics Spot SDK on my Mac and prepare for direct control of the reaL Spot robot (without ROS2)
 
-# Environment #
-## Device ##
+## Environment ##
+### Device ###
 MacBook (Apple Silicon M3)
-## Operating System ##
+### Operating System ###
 macOS
-## Python ##
+### Python ###
 Anaconda (Python 3.12)
-## SDK Installed ##
+### SDK Installed ###
 - bosdyn-client
 - bosdyn-mission
 - bosdyn-choreography-client
-## Spot SDK repository cloned from:
+### Spot SDK repository cloned from: ###
+```
+https://github.com/boston-dynamics/spot-sdk
+```
