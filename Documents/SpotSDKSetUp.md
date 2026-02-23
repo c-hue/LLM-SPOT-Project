@@ -19,7 +19,7 @@ https://github.com/boston-dynamics/spot-sdk
 ```
 ### Setup Steps Completed ###
 
-1. Installed Spot SDK packages via pip
+1. Installed Spot SDK packages via ** pip **
 2. Verified installation in Python environment
 3. Cloned Spot SDK GitHub repository
 4. Navigated to example scripts (python/examples)
