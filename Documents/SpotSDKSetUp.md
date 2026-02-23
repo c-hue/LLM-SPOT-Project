@@ -25,3 +25,14 @@ https://github.com/boston-dynamics/spot-sdk
 4. Navigated to example scripts (python/examples)
 5. Confirmed ability to connect to Spot network (previous lab test)
 6. Successfully pinged Spot from laptop
+
+### Current Status ###
+- SDK installation successful
+- Example scripts available locally
+- Network connection to Spot previously verified
+- * Command scripts have not yet been tested on the real robot this week *
+    
+### Next Steps ###
+- Run hello_spot.py to verify authentication and connection
+- Begin implementing command safety logic
+- Integrate structured JSON action schema from LLM module
