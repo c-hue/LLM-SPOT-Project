@@ -17,3 +17,11 @@ Anaconda (Python 3.12)
 ```
 https://github.com/boston-dynamics/spot-sdk
 ```
+### Setup Steps Completed ###
+
+1. Installed Spot SDK packages via pip
+2. Verified installation in Python environment
+3. Cloned Spot SDK GitHub repository
+4. Navigated to example scripts (python/examples)
+5. Confirmed ability to connect to Spot network (previous lab test)
+6. Successfully pinged Spot from laptop
