@@ -30,7 +30,7 @@ https://github.com/boston-dynamics/spot-sdk
 - SDK installation successful
 - Example scripts available locally
 - Network connection to Spot previously verified
-- * Command scripts have not yet been tested on the real robot this week *
+- _Command scripts have not yet been tested on the real robot this week_
     
 ### Next Steps ###
 - Run hello_spot.py to verify authentication and connection
