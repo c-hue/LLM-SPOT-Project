@@ -19,6 +19,7 @@ Voice -> Text -> AI-> Robot Action
 ### What I Installed / Set Up ###
 
 To make this work, I created a _separate Python virtual environment_ and installed the following libraries:
+
 • _**openai-whisper**_ : for converting speech to text
 
 • _**torch**_ : required to run Whisper
@@ -29,9 +30,18 @@ To make this work, I created a _separate Python virtual environment_ and install
 
 • _**scipy**_ : for audio handling utilities
 
+```
+pip install openai-whisper
+pip install torch
+pip install sounddevice
+pip install numpy
+pip install scipy
+```
+
 The microphone records audio at _16kHz_, which matches Whisper’s recommended input format.
 
 ### Current Status ###
+
 • The microphone recording works
 
 • The speech-to-text transcription works reliably
