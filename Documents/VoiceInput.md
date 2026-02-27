@@ -20,17 +20,24 @@ Voice -> Text -> AI-> Robot Action
 
 To make this work, I created a _separate Python virtual environment_ and installed the following libraries:
 • _**openai-whisper**_ : for converting speech to text
+
 • _**torch**_ : required to run Whisper
+
 • _**sounddevice**_ : to record audio from the microphone
+
 • _**numpy**_ : to process audio data
+
 • _**scipy**_ : for audio handling utilities
 
 The microphone records audio at _16kHz_, which matches Whisper’s recommended input format.
 
 ### Current Status ###
 • The microphone recording works
+
 • The speech-to-text transcription works reliably
+
 • The system correctly prints what the user says
+
 • The module is structured as a function so it can be easily connected to our Gemini API script
 
 #### Example test result: ####
