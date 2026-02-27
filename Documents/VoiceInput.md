@@ -30,6 +30,14 @@ To make this work, I created a _separate Python virtual environment_ and install
 
 • _**scipy**_ : for audio handling utilities
 
+#### Virtual environment setup ####
+
+```
+python3 -m venv my_spot_env
+source my_spot_env/bin/activate
+```
+
+#### Dependencies installed ####
 ```
 pip install openai-whisper
 pip install torch
@@ -51,8 +59,10 @@ The microphone records audio at _16kHz_, which matches Whisper’s recommended i
 • The module is structured as a function so it can be easily connected to our Gemini API script
 
 #### Example test result: ####
-User says: “Move two steps forward”
-System prints: “Move two steps forward”
+
+User says: “**_Move two steps forward_**”
+
+System prints: “**_Move two steps forward_**”
 
 ### Why This Matters ###
 This feature acts as the input layer of our system. It allows non-technical users to speak naturally to the robot instead of typing commands.
