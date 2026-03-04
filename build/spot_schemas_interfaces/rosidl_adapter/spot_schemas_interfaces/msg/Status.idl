@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from spot_schemas_interfaces/msg/Status.msg
+// generated code does not contain a copyright notice
+
+
+module spot_schemas_interfaces {
+  module msg {
+    struct Status {
+      boolean success;
+
+      string message;
+    };
+  };
+};

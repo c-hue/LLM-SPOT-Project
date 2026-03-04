@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/spot_schemas
+spot_schemas/__init__.py
+spot_schemas/detect_color_schema.py
+spot_schemas/rotate_schema.py
+spot_schemas.egg-info/PKG-INFO
+spot_schemas.egg-info/SOURCES.txt
+spot_schemas.egg-info/dependency_links.txt
+spot_schemas.egg-info/entry_points.txt
+spot_schemas.egg-info/requires.txt
+spot_schemas.egg-info/top_level.txt
+spot_schemas.egg-info/zip-safe

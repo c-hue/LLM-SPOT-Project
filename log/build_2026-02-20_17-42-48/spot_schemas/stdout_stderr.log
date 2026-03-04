@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating spot_schemas.egg-info
+writing spot_schemas.egg-info/PKG-INFO
+writing dependency_links to spot_schemas.egg-info/dependency_links.txt
+writing requirements to spot_schemas.egg-info/requires.txt
+writing top-level names to spot_schemas.egg-info/top_level.txt
+writing manifest file 'spot_schemas.egg-info/SOURCES.txt'
+reading manifest file 'spot_schemas.egg-info/SOURCES.txt'
+writing manifest file 'spot_schemas.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/thflinh/ws_schemas/install/spot_schemas/lib/python3.12/site-packages/spot-schemas.egg-link (link to .)
+
+Installed /home/thflinh/ws_schemas/build/spot_schemas
+running symlink_data
+creating /home/thflinh/ws_schemas/install/spot_schemas/share/ament_index
+creating /home/thflinh/ws_schemas/install/spot_schemas/share/ament_index/resource_index
+creating /home/thflinh/ws_schemas/install/spot_schemas/share/ament_index/resource_index/packages
+symbolically linking /home/thflinh/ws_schemas/build/spot_schemas/resource/spot_schemas -> /home/thflinh/ws_schemas/install/spot_schemas/share/ament_index/resource_index/packages
+symbolically linking /home/thflinh/ws_schemas/build/spot_schemas/package.xml -> /home/thflinh/ws_schemas/install/spot_schemas/share/spot_schemas

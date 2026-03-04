@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "spot_schemas_interfaces/srv/WalkToPose_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "spot_schemas_interfaces/msg/Status"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "spot_schemas_interfaces/msg/Status",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "spot_schemas_interfaces/srv/WalkToPose_Response",
+      "hash_string": "RIHS01_4c468b2d68a84770704f564752eb8bf76d6f89cad1af09ba071ae810a16425e3"
+    },
+    {
+      "type_name": "spot_schemas_interfaces/msg/Status",
+      "hash_string": "RIHS01_577bf8d2ed1f1662b713cde340ec952d5e97b01c9a01c883111a7925583b188c"
+    }
+  ]
+}

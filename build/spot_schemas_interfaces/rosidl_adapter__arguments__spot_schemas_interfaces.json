@@ -1,0 +1,13 @@
+{
+  "package_name": "spot_schemas_interfaces",
+  "non_idl_tuples": [
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:msg/Status.msg",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:msg/Object2D.msg",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:msg/ObjectPose3D.msg",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:msg/GraspStatus.msg",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:msg/ColorLabel.msg",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:srv/DetectObjectColor.srv",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:srv/Rotate.srv",
+    "/home/thflinh/ws_schemas/src/spot_schemas_interfaces:srv/WalkToPose.srv"
+  ]
+}
