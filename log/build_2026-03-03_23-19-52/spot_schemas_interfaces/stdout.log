@@ -1,0 +1,391 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thflinh/ws_schemas/build/spot_schemas_interfaces
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_spot_schemas_interfaces
+running egg_info
+writing spot_schemas_interfaces.egg-info/PKG-INFO
+writing dependency_links to spot_schemas_interfaces.egg-info/dependency_links.txt
+writing top-level names to spot_schemas_interfaces.egg-info/top_level.txt
+reading manifest file 'spot_schemas_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'spot_schemas_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target spot_schemas_interfaces__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_build_spot_schemas_interfaces_egg
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target spot_schemas_interfaces__cpp
+[  3%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/status__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/status__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/object2_d__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/object2_d__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/object2_d__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/object_pose3_d__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/object_pose3_d__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/grasp_status__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/object_pose3_d__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/grasp_status__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/grasp_status__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/status__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/color_label__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/color_label__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/msg/detail/color_label__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/detect_object_color__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/detect_object_color__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/detect_object_color__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/rotate__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/rotate__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/rotate__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/walk_to_pose__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/walk_to_pose__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spot_schemas_interfaces/srv/detail/walk_to_pose__type_support.c.o[0m
+[ 26%] [32m[1mLinking C shared library libspot_schemas_interfaces__rosidl_generator_c.so[0m
+[ 26%] Built target spot_schemas_interfaces__rosidl_generator_c
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/msg/status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/msg/object_pose3_d__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/msg/color_label__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/msg/detail/status__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/msg/detail/object2_d__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/msg/detail/object_pose3_d__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/msg/grasp_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/msg/object2_d__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/srv/rotate__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/srv/detect_object_color__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/msg/detail/grasp_status__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spot_schemas_interfaces/srv/walk_to_pose__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/msg/detail/color_label__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/msg/object_pose3_d__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/msg/status__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/msg/object2_d__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libspot_schemas_interfaces__rosidl_typesupport_c.so[0m
+[ 48%] Built target spot_schemas_interfaces__rosidl_typesupport_c
+[ 48%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/msg/grasp_status__type_support.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/msg/detail/status__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/msg/color_label__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/msg/detail/object2_d__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/srv/detect_object_color__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/srv/rotate__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/srv/detail/detect_object_color__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/srv/detail/rotate__type_support.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/msg/detail/object_pose3_d__type_support.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spot_schemas_interfaces/srv/walk_to_pose__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/srv/detail/walk_to_pose__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/msg/detail/grasp_status__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/msg/detail/color_label__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/srv/detail/detect_object_color__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/srv/detail/rotate__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spot_schemas_interfaces/srv/detail/walk_to_pose__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/msg/detail/status__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/msg/detail/dds_fastrtps/object2_d__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/msg/detail/object2_d__type_support_c.cpp.o[0m
+[ 68%] [32m[1mLinking C shared library libspot_schemas_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 68%] Built target spot_schemas_interfaces__rosidl_typesupport_introspection_c
+[ 69%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/msg/detail/dds_fastrtps/object_pose3_d__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/msg/detail/dds_fastrtps/grasp_status__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/msg/detail/object_pose3_d__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/msg/detail/grasp_status__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/msg/detail/dds_fastrtps/color_label__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/msg/detail/color_label__type_support_c.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libspot_schemas_interfaces__rosidl_typesupport_cpp.so[0m
+[ 76%] [32m[1mLinking CXX shared library libspot_schemas_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/srv/detail/dds_fastrtps/detect_object_color__type_support.cpp.o[0m
+[ 77%] Built target spot_schemas_interfaces__rosidl_typesupport_cpp
+[ 78%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/srv/detail/detect_object_color__type_support_c.cpp.o[0m
+[ 78%] Built target spot_schemas_interfaces__rosidl_typesupport_introspection_cpp
+[ 79%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/srv/detail/rotate__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/srv/detail/walk_to_pose__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/srv/detail/dds_fastrtps/rotate__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spot_schemas_interfaces/srv/detail/dds_fastrtps/walk_to_pose__type_support.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libspot_schemas_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 83%] Built target spot_schemas_interfaces__rosidl_typesupport_fastrtps_c
+[ 84%] [32m[1mLinking CXX shared library libspot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 84%] Built target spot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target spot_schemas_interfaces
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target spot_schemas_interfaces__py
+[ 86%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/srv/_detect_object_color_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/msg/_grasp_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/msg/_object2_d_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/msg/_status_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/msg/_object_pose3_d_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/msg/_color_label_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/srv/_walk_to_pose_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spot_schemas_interfaces/srv/_rotate_s.c.o[0m
+[ 94%] [32m[1mLinking C shared library libspot_schemas_interfaces__rosidl_generator_py.so[0m
+[ 94%] Built target spot_schemas_interfaces__rosidl_generator_py
+[ 95%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/spot_schemas_interfaces/_spot_schemas_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/spot_schemas_interfaces/_spot_schemas_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/spot_schemas_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/spot_schemas_interfaces/_spot_schemas_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[ 99%] Built target spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 99%] Built target spot_schemas_interfaces_s__rosidl_typesupport_introspection_c
+[100%] [32m[1mLinking C shared module rosidl_generator_py/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_c.so[0m
+[100%] Built target spot_schemas_interfaces_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/ament_index/resource_index/rosidl_interfaces/spot_schemas_interfaces
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/Status.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/Object2D.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/ObjectPose3D.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/GraspStatus.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/ColorLabel.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/DetectObjectColor.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/Rotate.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/WalkToPose.json
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/color_label.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__type_support.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__functions.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__struct.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/grasp_status.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/object2_d.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/object_pose3_d.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/status.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__functions.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__struct.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__type_support.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detect_object_color.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/rotate.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/walk_to_pose.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/library_path.sh
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/library_path.dsv
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/color_label.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__type_support.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__builder.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__struct.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__traits.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/grasp_status.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/object2_d.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/object_pose3_d.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/status.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__builder.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__struct.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__traits.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__type_support.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detect_object_color.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/rotate.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/walk_to_pose.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/color_label__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/grasp_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/object_pose3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/detect_object_color__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/rotate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/include/spot_schemas_interfaces/spot_schemas_interfaces/srv/detail/walk_to_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/pythonpath.sh
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/__init__.py
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/_spot_schemas_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/_spot_schemas_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/_spot_schemas_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/__init__.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_color_label.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_color_label_s.c
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_grasp_status.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_grasp_status_s.c
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_object2_d.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_object2_d_s.c
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_object_pose3_d.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_object_pose3_d_s.c
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_status.py
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_status_s.c
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/__init__.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_detect_object_color.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_detect_object_color_s.c
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_rotate.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_rotate_s.c
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_walk_to_pose.py
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_walk_to_pose_s.c
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/Status.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/Object2D.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/ObjectPose3D.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/GraspStatus.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/ColorLabel.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/DetectObjectColor.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/Rotate.idl
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/WalkToPose.idl
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/Status.msg
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/Object2D.msg
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/ObjectPose3D.msg
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/GraspStatus.msg
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/msg/ColorLabel.msg
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/DetectObjectColor.srv
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/Rotate.srv
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/srv/WalkToPose.srv
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/ament_index/resource_index/package_run_dependencies/spot_schemas_interfaces
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/ament_index/resource_index/parent_prefix_path/spot_schemas_interfaces
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/path.sh
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/environment/path.dsv
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/local_setup.bash
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/local_setup.sh
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/local_setup.zsh
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/local_setup.dsv
+-- Symlinking: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/package.dsv
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/ament_index/resource_index/packages/spot_schemas_interfaces
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfacesConfig.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfacesConfig-version.cmake
+-- Up-to-date symlink: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/package.xml
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/__init__.py'...
+Listing '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/__init__.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_color_label.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_grasp_status.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_object2_d.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_object_pose3_d.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/msg/_status.py'...
+Listing '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/__init__.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_detect_object_color.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_rotate.py'...
+Compiling '/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/python3.12/site-packages/spot_schemas_interfaces/srv/_walk_to_pose.py'...
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/lib/libspot_schemas_interfaces__rosidl_generator_py.so" to ""
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_cExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_cppExport.cmake
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Old export file "/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/spot_schemas_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/thflinh/ws_schemas/install/spot_schemas_interfaces/share/spot_schemas_interfaces/cmake/export_spot_schemas_interfaces__rosidl_generator_pyExport-noconfig.cmake

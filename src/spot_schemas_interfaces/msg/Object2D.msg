@@ -1,0 +1,7 @@
+string object_id
+string color
+int32 x
+int32 y
+int32 width
+int32 height
+float32 confidence

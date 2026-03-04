@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "spot_schemas_interfaces__py",
+		"source" : "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/spot_schemas_interfaces__py"
+	}
+}

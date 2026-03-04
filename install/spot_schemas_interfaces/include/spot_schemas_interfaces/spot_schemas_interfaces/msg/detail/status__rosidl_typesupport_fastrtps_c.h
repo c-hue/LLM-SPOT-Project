@@ -1,0 +1,1 @@
+/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_typesupport_fastrtps_c/spot_schemas_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h

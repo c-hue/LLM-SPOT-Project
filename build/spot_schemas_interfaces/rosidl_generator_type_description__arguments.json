@@ -1,0 +1,20 @@
+{
+  "package_name": "spot_schemas_interfaces",
+  "output_dir": "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_generator_type_description/spot_schemas_interfaces",
+  "idl_tuples": [
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:msg/Status.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:msg/Object2D.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:msg/ObjectPose3D.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:msg/GraspStatus.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:msg/ColorLabel.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:srv/DetectObjectColor.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:srv/Rotate.idl",
+    "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_adapter/spot_schemas_interfaces:srv/WalkToPose.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
