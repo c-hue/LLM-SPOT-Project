@@ -1,1 +1,0 @@
-/home/thflinh/ws_schemas/src/spot_schemas_interfaces/msg/ObjectPose3D.msg

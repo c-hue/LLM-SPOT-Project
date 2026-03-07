@@ -1,1 +1,0 @@
-/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/srv/detail/walk_to_pose__rosidl_typesupport_introspection_cpp.hpp

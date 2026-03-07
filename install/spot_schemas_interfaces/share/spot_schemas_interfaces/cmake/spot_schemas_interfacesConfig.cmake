@@ -1,1 +1,0 @@
-/home/thflinh/ws_schemas/build/spot_schemas_interfaces/ament_cmake_core/spot_schemas_interfacesConfig.cmake

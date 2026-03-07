@@ -1,6 +1,0 @@
-#request
-string target_color
----
-#response
-spot_schemas_interfaces/Object2D detected_object
-spot_schemas_interfaces/Status status

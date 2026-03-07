@@ -1,3 +1,0 @@
-[console_scripts]
-detect_color_schema = spot_schemas.detect_color_schema:main
-rotate_schema = spot_schemas.rotate_schema:main

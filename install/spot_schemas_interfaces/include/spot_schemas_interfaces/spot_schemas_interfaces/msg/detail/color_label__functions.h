@@ -1,1 +1,0 @@
-/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_generator_c/spot_schemas_interfaces/msg/detail/color_label__functions.h

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_generator_py/spot_schemas_interfaces/spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "spot_schemas_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/spot_schemas_interfaces")

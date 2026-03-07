@@ -1,5 +1,0 @@
-#request
-float32 angle_degrees
----
-#response
-spot_schemas_interfaces/Status status
