@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_schemas_interfaces/srv/Rotate.srv
+// generated code does not contain a copyright notice
+
+#include "spot_schemas_interfaces/msg/Status.idl"
+
+module spot_schemas_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Rotate_Request {
+      float angle_degrees;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Rotate_Response {
+      spot_schemas_interfaces::msg::Status status;
+    };
+  };
+};

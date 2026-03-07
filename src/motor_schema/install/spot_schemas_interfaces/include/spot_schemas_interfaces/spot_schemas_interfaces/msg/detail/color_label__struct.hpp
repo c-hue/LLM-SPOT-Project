@@ -1,0 +1,1 @@
+/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_generator_cpp/spot_schemas_interfaces/msg/detail/color_label__struct.hpp

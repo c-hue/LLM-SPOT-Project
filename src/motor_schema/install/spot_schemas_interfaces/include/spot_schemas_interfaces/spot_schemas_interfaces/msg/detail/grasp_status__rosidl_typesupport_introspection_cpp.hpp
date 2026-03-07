@@ -1,0 +1,1 @@
+/home/thflinh/ws_schemas/build/spot_schemas_interfaces/rosidl_typesupport_introspection_cpp/spot_schemas_interfaces/msg/detail/grasp_status__rosidl_typesupport_introspection_cpp.hpp
