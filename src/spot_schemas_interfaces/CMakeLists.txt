@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/DetectObjectColor.srv"
   "srv/Rotate.srv"
   "srv/WalkToPose.srv"
+  "srv/Walk.srv"
   
   DEPENDENCIES geometry_msgs
 )

@@ -1,0 +1,5 @@
+# Request
+float32 distance_meters
+---
+# Response
+spot_schemas_interfaces/Status status
