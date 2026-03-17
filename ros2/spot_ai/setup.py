@@ -24,7 +24,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'gemini_node = spot_ai.geminiAPI:main'
+            'gemini_node = spot_ai.geminiAPI:main',
+            'voice_ai_node = spot_ai.voice_ai_pipeline:main',
+            'wav_input_node = spot_ai.wav_input_node:main',
+            'chat_tts_node = spot_ai.chat_tts_node:main',
         ],
     },
 )
