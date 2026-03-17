@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
 		'rotate_schema = spot_schemas.rotate_schema:main',
+        'walking_schema = spot_schemas.walking_schema:main'
 		'detect_color_schema = spot_schemas.detect_color_schema:main',
         ],
     },
